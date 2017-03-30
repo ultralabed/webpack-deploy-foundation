@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "NODE_ENV=production yarn run clean && webpack -p",
-    "server": "webpack-dev-server"
+    "server": "webpack-dev-server",
+    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "repository": "https://github.com/StephenGrider/WebpackProject",
   "author": "",
