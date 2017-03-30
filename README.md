@@ -13,6 +13,23 @@ Then good to go~!
 
 Github Pages:
 
+```
+git cob gh-pages
+git subtree push --prefix dist origin gh-pages or npm run deploy
+Then good to go~!
+"https://ultralabed.github.io/webpack-deploy-foundation/"
+
+```
+
+Heroku
+```
+heroku
+heroku create (first time only)
+git push heroku master
+heroku open
+Then good to go~!
+"https://safe-springs-50727.herokuapp.com/"
+```
 
 
 To be continued.
